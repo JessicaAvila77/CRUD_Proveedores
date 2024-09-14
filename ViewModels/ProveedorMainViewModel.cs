@@ -52,7 +52,7 @@ namespace CRUD_Proveedores.ViewModels
 
         }
 
-        //ejecunta el comando del boton agregar que esta en la vista
+        //configura los botones y los enlaza con las vistas
 
         [RelayCommand]
 
@@ -62,6 +62,8 @@ namespace CRUD_Proveedores.ViewModels
             await App.Current!.MainPage!.Navigation.PushAsync(new AddProveedorForm());
 
         }
+
+        //llamas a los metodos que estab en el service
 
         [RelayCommand]
 
