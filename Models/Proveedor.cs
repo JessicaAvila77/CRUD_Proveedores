@@ -13,7 +13,6 @@ namespace CRUD_Proveedores.Models
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
 
-
         [NotNull]
         public string Nombre { get; set; }
 
