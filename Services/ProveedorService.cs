@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace CRUD_Proveedores.Services
 {
-    public class ProveerdorService
+    public class ProveedorService
     {
         private readonly SQLiteConnection dbConecction;
 
-        public ProveerdorService() 
+        public ProveedorService() 
         {
             string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Proveedor.db3");
 
