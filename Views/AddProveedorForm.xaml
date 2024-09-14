@@ -16,7 +16,7 @@
         <Label Text="Teléfono:"/>
         <Entry Text="{Binding Telefono}" Keyboard="Text" Placeholder="Ingrese el teléfono"/>
 
-        <Label Text="Dirección:"/>
+        <Label Text="Dirección (Opcional):"/>
         <Entry Text="{Binding Direccion}" Keyboard="Text" Placeholder="Ingrese la dirección"/>
         
         <Button Text="Guardar" Command="{Binding AddUpdateCommand}"/>
