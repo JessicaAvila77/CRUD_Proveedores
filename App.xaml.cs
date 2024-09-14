@@ -1,4 +1,6 @@
-﻿namespace CRUD_Proveedores
+﻿using CRUD_Proveedores.Views;
+
+namespace CRUD_Proveedores
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new ProveedorMain());
         }
     }
 }
